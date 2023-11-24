@@ -4,5 +4,5 @@ public interface OperativaInterfaz {
 
 	public int numeroAleatorio();
 	
-	public int compararNumero(int numeroRandom);
+	public void compararNumero(int numeroRandom);
 }

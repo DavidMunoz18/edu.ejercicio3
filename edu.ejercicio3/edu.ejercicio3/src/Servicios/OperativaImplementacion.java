@@ -23,7 +23,7 @@ public class OperativaImplementacion implements OperativaInterfaz {
 	}
 
 	@Override
-	public int compararNumero(int numeroRandom) {
+	public void compararNumero(int numeroRandom) {
 		
 		for(int i=0; i<10; i++) {
 			
@@ -43,7 +43,7 @@ public class OperativaImplementacion implements OperativaInterfaz {
 		}
 		
 		
-		return 0;
+		
 	}
 	
 
